@@ -1,25 +1,38 @@
-# VBA-Challenge
+## Project Title: StockMagic 📈✨
 
-# Project Description
-Utilizing VBA scripting to analyze generated stock market data.
+## Overview
+StockMagic is a VBA script designed for analyzing stock market data across multiple worksheets. It provides valuable insights into yearly changes, percentage changes, and total stock volumes for different ticker symbols. StockMagic also highlights significant data points, such as the greatest percentage increase, greatest percentage decrease, and greatest total volume.
 
-# Data Source
-Multiple_year_stock_data.xlsx
+## Features
+* Calculates yearly change, percentage change, and total stock volume for each ticker symbol.
+* Highlights positive yearly changes in green and negative changes in red for visual clarity.
+* Identifies and displays the greatest percentage increase, greatest percentage decrease, and greatest total volume.
 
-# Instructions
-Create a script that loops through all the stocks for one year and outputs the following information:
+## Usage
+1) Ensure you have a workbook with multiple worksheets containing stock market data.
+2) Open the workbook and press ALT + F8 to run the Sub VBA_Challenge macro.
+3) The script will process each worksheet, calculate metrics, and highlight key data points.
 
--The ticker symbol
+## Data
+* <bold>Financial Data</bold>: StockMagic analyzes a workbook with multiple worksheets, each containing stock market data. Columns for ticker symbols, opening and closing values, and volumes are expected.
 
--Yearly change from the opening price at the beginning of a given year to the closing price at the end of that year.
+## Output
+* StockMagic calculates and populates columns with yearly changes, percentage changes, and total stock volumes.
+* Color-coded cells in column K provide visual cues for positive and negative yearly changes.
+* The script identifies and displays the greatest percentage increase, greatest percentage decrease, and greatest total volume.
 
--The percentage change from the opening price at the beginning of a given year to the closing price at the end of that year.
+## Dependencies
+* Microsoft Excel with VBA support
 
--The total stock volume of the stock.
+## Future Enhancements
+* Graphical representation of stock trends.
+* User-friendly interface for selecting specific data ranges.
 
--Add functionality to your script to return the stock with the "Greatest % increase", "Greatest % decrease", and "Greatest total volume". 
+## Contributors
+* Erika Walker
 
--Make the appropriate adjustments to your VBA script to enable it to run on every worksheet (that is, every year) at once.
+## Acknowledgements
+* This project was inspired by the need for efficient stock market data analysis using VBA scripting in Microsoft Excel. May your stocks always rise! 🚀💰
 
 # Results
 ![Image](<VBA-Challenge Finished/Screenshots of the results/Screenshot of 2018 results.png>)
